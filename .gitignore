@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging/build
+build/
+dist/
+*.egg-info/
+*.spec
+
+# FTS generated output
+out/
+.fts-incomplete-*/
+*.autosave.ftsproject.json
+
+# Local application/user settings
+.fts-settings.json
+fts-settings.json
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~
